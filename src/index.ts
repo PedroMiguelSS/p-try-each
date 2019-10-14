@@ -18,6 +18,6 @@ const pTryEach = async (iterable: any[]) => {
   }
 
   throw error;
-}
+};
 
 export = pTryEach;
