@@ -1,4 +1,4 @@
-export default async (iterable: any[]) => {
+const pTryEach = async (iterable: any[]) => {
   let error;
 
   for (const element of iterable) {
@@ -19,3 +19,5 @@ export default async (iterable: any[]) => {
 
   throw error;
 }
+
+export = pTryEach;
