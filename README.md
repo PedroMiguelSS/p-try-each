@@ -1,4 +1,4 @@
-# p-try-each
+# p-try-each [![Build Status](https://travis-ci.org/PedroMiguelSS/p-try-each.svg?branch=master)](https://travis-ci.org/PedroMiguelSS/p-try-each)
 
 > Runs promise-returning functions in series but stops whenever any of the functions were successful. If all functions reject, the promise will be rejected with the error of the final task
 
