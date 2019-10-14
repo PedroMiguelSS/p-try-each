@@ -1,4 +1,4 @@
-import pTryEach from '../index';
+import pTryEach = require('../index');
 
 test('resolve with the result of the first successful task', async () => {
   const iterable = [
